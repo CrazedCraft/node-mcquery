@@ -1,5 +1,5 @@
-{   
-    "requireCurlyBraces": [
+{
+  "requireCurlyBraces": [
     "if",
     "else",
     "for",
@@ -10,7 +10,6 @@
   ],
   "requireOperatorBeforeLineBreak": true,
   "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
-
   "maximumLineLength": {
     "value": 80,
     "allowComments": true,
@@ -18,12 +17,10 @@
   },
   "validateIndentation": 2,
   "validateQuoteMarks": "'",
-
   "disallowMultipleLineStrings": true,
   "disallowMixedSpacesAndTabs": true,
   "disallowTrailingWhitespace": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
-
   "requireSpaceAfterKeywords": [
     "if",
     "else",
@@ -36,12 +33,40 @@
     "catch"
   ],
   "requireSpaceBeforeBinaryOperators": [
-    "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=",
-    "&=", "|=", "^=", "+=",
-
-    "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&",
-    "|", "^", "&&", "||", "===", "==", ">=",
-    "<=", "<", ">", "!=", "!=="
+    "=",
+    "+=",
+    "-=",
+    "*=",
+    "/=",
+    "%=",
+    "<<=",
+    ">>=",
+    ">>>=",
+    "&=",
+    "|=",
+    "^=",
+    "+=",
+    "+",
+    "-",
+    "*",
+    "/",
+    "%",
+    "<<",
+    ">>",
+    ">>>",
+    "&",
+    "|",
+    "^",
+    "&&",
+    "||",
+    "===",
+    "==",
+    ">=",
+    "<=",
+    "<",
+    ">",
+    "!=",
+    "!=="
   ],
   "requireSpaceAfterBinaryOperators": true,
   "requireSpacesInConditionalExpression": true,
@@ -50,11 +75,9 @@
   "requireSpacesInFunctionExpression": {
     "beforeOpeningCurlyBrace": true
   },
-
   "disallowSpacesInsideObjectBrackets": "all",
   "disallowSpacesInsideArrayBrackets": "all",
   "disallowSpacesInsideParentheses": true,
-
   "requireSpacesInAnonymousFunctionExpression": {
     "beforeOpeningRoundBrace": true,
     "beforeOpeningCurlyBrace": true
